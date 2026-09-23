@@ -46,7 +46,7 @@ export const MIN_ALARM_VOLUME = 0.3; // still has to function as an alarm
  * TEMP (testing): when set, EVERY alarm rings at this loudness regardless of its own setting.
  * Set back to null before release.
  */
-export const TEST_VOLUME_OVERRIDE: number | null = 0.2;
+export const TEST_VOLUME_OVERRIDE: number | null = null;
 
 export const VOLUME_OPTIONS: { id: string; label: string; value: number }[] = [
   { id: 'test', label: '20% (test)', value: 0.2 }, // TEMP: remove this line when done testing
